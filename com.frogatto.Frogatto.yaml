@@ -65,3 +65,9 @@ modules:
         commands:
           - cd /app/share/frogatto
           - exec /app/lib/frogatto/game "$@"
+cleanup:
+  - /share/frogatto/modules/frogatto/sounds_wav
+  - /share/frogatto/modules/frogatto/music_aac
+  - /share/frogatto/modules/frogatto/music_aac_mini
+  - /include
+  - '*.a'
