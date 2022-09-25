@@ -58,6 +58,8 @@ modules:
         path: surf.patch
       - type: patch
         path: waterblendfix.patch
+      - type: patch
+        path: music.patch
       - type: file
         path: frogatto.desktop
       - type: file
